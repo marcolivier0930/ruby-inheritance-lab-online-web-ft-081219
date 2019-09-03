@@ -10,6 +10,6 @@ class User
   
   
   def learn 
-    @knowledge << 
+    @knowledge << string 
   end
 end
