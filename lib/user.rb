@@ -9,7 +9,11 @@ class User
   end
   
   
-  def learn 
+  def learn(string)
     @knowledge << string 
+  end
+  
+  def knowledge
+    @knowledge 
   end
 end
